@@ -27,7 +27,7 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).parent
 
-SVM_MODEL_PATH = BASE_DIR / "models" / "linear_svm_5000.pkl"
+SVM_MODEL_PATH = BASE_DIR / "linear_svm_5000.pkl"
 
 
 @st.cache_resource
